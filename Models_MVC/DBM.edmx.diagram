@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a8223e3d1bfa4fbc82b4cef00a11ba3d" Name="Diagram1">
+        <EntityTypeShape EntityType="TradingCompanyModel.Current_order" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradingCompanyModel.Customer" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradingCompanyModel.Item" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradingCompanyModel.Order_Manager" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradingCompanyModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradingCompanyModel.Addto" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="TradingCompanyModel.FK__Addto__Id_of_ord__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="TradingCompanyModel.FK__Current_o__Order__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="TradingCompanyModel.FK__Current_o__Useri__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="TradingCompanyModel.FK__Addto__Id_if_ite__4222D4EF" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
